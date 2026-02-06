@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Love ❤️</title>
+  <link rel="stylesheet" href="styletest.css" />
+</head>
+
+<body>
+  <!-- PAGE 1 -->
+  <section class="page active" id="page1">
+    <h1>My Love ❤️</h1>
+    <div class="emoji">🥰💖✨🌹❤️</div>
+    <p>
+      You are my safe place, my happiness, my forever.
+      Every heartbeat whispers your name, and every moment
+      with you is a beautiful memory 💕
+    </p>
+    <button onclick="goToPage(2)">Continue 💫</button>
+  </section>
+
+  <!-- PAGE 2 -->
+  <section class="page" id="page2">
+    <h1>Our Memories 💭</h1>
+    <p>Choose one of our special moments 💖</p>
+    <div class="memory-grid">
+      <button class="memory-btn" onclick="selectMemory('Memory One')">🌹 Tunisia</button>
+      <button class="memory-btn" onclick="selectMemory('Memory Two')">✨ Sétif</button>
+      <button class="memory-btn" onclick="selectMemory('Memory Three')">🔥 Spicy</button>
+      <button class="memory-btn" onclick="selectMemory('Memory Four')">💖 Khoutba</button>
+    </div>
+    <button class="memory-btn" style="margin-top: 28px;" onclick="goToPage(4)">
+      Something Special ✨🎥 
+    </button>
+  </section>
+
+  <!-- PAGE 3 -->
+  <section class="page" id="page3">
+    <h1 id="question"></h1>
+    <p id="memoryText"></p>
+
+    <div class="answers">
+      <button></button>
+      <button></button>
+      <button></button>
+      <button></button>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <span id="overlayText"></span>
+    </div>
+    <button style="margin-top: 28px;" onclick="goToPage(2)">
+      Back to Our Memory 💖
+    </button>
+    
+  </section>
+
+  <!-- PAGE 4 -->
+  <section class="page" id="page4">
+    <h1>Our Moments 🎥❤️</h1>
+    <p>Little pieces of us, forever saved 💕</p>
+
+    <div class="video-grid">
+      <video controls>
+        <source src="Videos/video1.mp4" type="video/mp4">
+      </video>
+
+      <video controls>
+        <source src="Videos/video2.mp4" type="video/mp4">
+      </video>
+
+      <video controls>
+        <source src="Videos/video3.mp4" type="video/mp4">
+      </video>
+    </div> 
+    <button style="margin-top: 28px;" onclick="goToPage(2)">
+      Back to Our Memory 💖
+    </button>
+
+    <script src="scripttest.js"></script>
+
+</body>
+</html>

@@ -6,7 +6,7 @@ const pages = document.querySelectorAll(".page");
         answers: [
           { lable:"Red, Yellow, Pink", result:"Nop! 😐"},
           { lable:"Red, White, Yellow", result:"YEAAAH! Beautiful Like Your eyes💝"},
-          { lable:"hite, Pink, Yellow", result:"Balaki Tzidi Taghalti 😒"},
+          { lable:"white, Pink, Yellow", result:"Balaki Tzidi Taghalti 😒"},
           { lable:"Red, Yellow, Dark Pink", result:"ehm ehm 🙄"},
         ]
       },
